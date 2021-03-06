@@ -1,0 +1,18 @@
+MAZUR DINU 313 CB
+In aceasta tema am simulat funcionarea unui atm. Pentru aceasta a fost nevoie
+sa implementam functii client si de administrator pentru a efectua operatiile
+necesare. Astfel folosind liste unidirectionale ne-generice am proiectat liste
+de carduri, liste de submultimi carduri si lista de istorii. Toate acestea erau
+legate prin structuri logice.
+Functiile incluse in header-urile atm_client atm_admin nu returneaza parametri.
+Aceasta se datoreaza faptului ca nu este necesara utilizarea acestor parametri
+in cursul programului.
+Functiile admin atm_admin.h raspund de operatii specifice adminului.
+Numai unele din operatiile de aici necesita scrierea in istorie a operatiei.
+Functiile client atm_client tin de operatii efectuate de client.
+In general erau posibile mai multe implementari doar pentru a ajunge la
+aceeasi implementare ca in programul propriu se puteau parcurge mai multe cai.
+Faptul se confirma prin obtinerea a mai multor versiuni al acestui program.
+Dupa parerea mea cea mai complicata fucntie a fost cea de citirea din fisier
+(am pierdut 6 ore doar sa inteleg ca se poate de folosit un if cu o
+isnstructiune).
