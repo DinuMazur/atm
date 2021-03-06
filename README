@@ -1,5 +1,4 @@
-MAZUR DINU 313 CB
-In aceasta tema am simulat funcionarea unui atm. Pentru aceasta a fost nevoie
+Am simulat funcionarea unui atm. Pentru aceasta a fost nevoie
 sa implementam functii client si de administrator pentru a efectua operatiile
 necesare. Astfel folosind liste unidirectionale ne-generice am proiectat liste
 de carduri, liste de submultimi carduri si lista de istorii. Toate acestea erau
